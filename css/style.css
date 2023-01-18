@@ -1,0 +1,159 @@
+
+a{
+    text-decoration: none;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px;
+}
+select{
+    height: 40px;
+    
+}
+
+
+.head_left ul li, .head_right ul li{
+    display: inline-block;
+    margin: 0px 17px;
+    font-size: 17px;
+   
+}
+.head_left ul li a, .head_right ul li a{
+    text-decoration: none;
+    
+}
+.head_left ul , .head_right ul {
+    margin: 5px;
+}
+.nav-main{
+    background-color: #CA1016;
+}
+.btn_plus{
+    background-color: #85C01F;
+    border: none;
+    padding: 9px;
+}
+.btn_plus:hover{
+    background-color: #7ab01e;
+}
+.red_group{
+    width: 260px;
+    height: 40px;
+}
+.select_group{
+    display: flex;   
+}
+.select_group select{
+    border-radius: 0px;
+    margin: 0;
+    
+}
+.none{
+    display: none ;
+}
+.hide1{
+    display: block ;
+}
+.azn{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.azn select{
+    height: 40px;
+    width: 20px;
+}
+.azn button{
+    background-color: white;
+    color: black;
+    border: solid 1px transparent;
+}
+.azn button:hover{
+    background-color: white;
+    border: solid 1px black;
+    color: black;
+}
+.buttons{
+    display: flex;
+}
+.buttons button , .buttons2 button{
+    font-size: 16px;
+}
+.section_hidden{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card_img{
+    transform: scale(0.9);
+    transition: transform 0.5s;
+  }
+  .card_img:hover {
+    transform: scale(1);
+  }
+.heart{
+    position: absolute;
+    z-index: 777777;
+    bottom: 299px;
+    left: 214px;
+    color: white;
+}
+.heart_t{
+    background-color: white;
+}
+.btn_link:focus{
+    box-shadow: none;
+}
+.elan_head1{
+    background-color: rgb(233, 233, 233);
+}
+.cardd {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+  }
+  
+  .cardd:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+  }
+  .elanlar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+ .salon{
+    color: white;
+    background-color: blue;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  }

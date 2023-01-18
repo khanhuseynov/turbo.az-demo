@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/bootstrap.css.map">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- HEAD -->
+    <div class="container-fluid bg-light">
+        <div class="container main">
+            <div class="head_left">
+                <ul>
+                    <li>
+                        <a class="text-muted" href="#">Tap.az</a>
+                    </li>
+                    <li>
+                        <a class="text-muted" href="#">Bina.az</a>
+                    </li>
+                    <li>
+                        <a class="text-muted" href="#">Boss.az</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="head_right">
+                <ul>
+                    <li>
+                        Dəstək: (012) 599-08-01; (012) 505-77-55
+                    </li>
+                    <li>
+                        <a class="text-muted" href="#">Yardım</a>
+                    </li>
+                    <li>
+                        <a class="text-muted" href="#">Ru</a>
+                    </li>
+                    <li>
+                        <i class=" text-muted fa fa-heart" aria-hidden="true"></i> <a class="text-muted"
+                            href="#">Seçilmişlər</a>
+                    </li>
+                    <li>
+                        <i class="text-muted fa fa-user-circle" aria-hidden="true"></i> <a class="text-muted"
+                            href="#">Giriş</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- NAVBAR -->
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light-nav nav-main">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">Turbo.a</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Bütün elanlar</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-white" href="#">Avtosalonlar</a>
+                    </li>
+                    <li class="nav-item dropdown mx-2">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Ehdiyyat hissələri və avtosalonlar
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Aksesuarlar</a></li>
+                            <li><a class="dropdown-item" href="#">Audio və video texnika</a></li>
+                            <li><a class="dropdown-item" href="#">Avto kosmetika və avto kimya</a></li>
+                            <li><a class="dropdown-item" href="#">Ehdiyyat hissələri</a></li>
+                            <li><a class="dropdown-item" href="#">GPS naviqatorlar</a></li>
+                            <li><a class="dropdown-item" href="#">Qeydiyyat nişanları</a></li>
+                            <li><a class="dropdown-item" href="#">Siqnalizasiyalar</a></li>
+                            <li><a class="dropdown-item" href="#">videoqeydiyyatçılar</a></li>
+                            <li><a class="dropdown-item" href="#">Şinlər, disklər və təkərlər</a></li>
+                            <li><a class="dropdown-item" href="#">Gigər</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <button type="button" class="btn btn-primary m-2 btn_plus">
+                    <i class="fa fa-plus-circle mx-1" aria-hidden="true"></i>Yeni elan
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SELECTOR -->
+
+    <div class="container-fluid bg-light pt-4">
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                        <option selected>Marka</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    <div class="input-group">
+                        <input placeholder="Qiymət, min." type="text" aria-label="First name" class="form-control">
+                        <input placeholder="Qiymət, max." type="text" aria-label="Last name" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                        <option selected>Model</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    <div class="azn">
+                        <select class="form-select form-select-lg  w-25 " aria-label=".form-select-lg example">
+                            <option selected>AZN</option>
+                            <option value="1">AZN</option>
+                            <option value="2">USD</option>
+                            <option value="3">EUR</option>
+                        </select>
+                        <button class="btn btn-danger">Kredit</button>
+                        <button class="btn btn-danger">Barter</button>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="btn-group mb-3 red_group" role="group" aria-label="Basic radio toggle button group">
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                        <label class="btn btn-outline-danger" for="btnradio1">Radio 1</label>
+
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                        <label class="btn btn-outline-danger" for="btnradio2">Radio 2</label>
+
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                        <label class="btn btn-outline-danger" for="btnradio3">Radio 3</label>
+                    </div>
+                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                        <option p- selected>Ban növü</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                        <option p- selected>Ban növü</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    <div class="select_group">
+                        <select class="form-select form-select-lg mb-3 select1" aria-label=".form-select-lg example">
+                            <option p- selected>Ban növü</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                        <select class="form-select form-select-lg mb-3 select2" aria-label=".form-select-lg example">
+                            <option p- selected>Ban növü</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container  bg-light none " id="hide ">
+            <div class="row">
+                <div class="col-md-3">
+                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                        <option p- selected>Ban növü</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                        <option p- selected>Ban növü</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                        <option p- selected>Ban növü</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                        <option p- selected>Ban növü</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="input-group">
+                        <input placeholder="Qiymət, min." type="text" aria-label="First name" class="form-control">
+                        <input placeholder="Qiymət, max." type="text" aria-label="Last name" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="input-group">
+                        <input placeholder="Qiymət, min." type="text" aria-label="First name" class="form-control">
+                        <input placeholder="Qiymət, max." type="text" aria-label="Last name" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="input-group">
+                        <input placeholder="Qiymət, min." type="text" aria-label="First name" class="form-control">
+                        <input placeholder="Qiymət, max." type="text" aria-label="Last name" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-3">
+                    <div class="btn-group mb-3 red_group" role="group" aria-label="Basic radio toggle button group">
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                        <label class="btn btn-outline-danger" for="btnradio1">Radio 1</label>
+
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                        <label class="btn btn-outline-danger" for="btnradio2">Radio 2</label>
+
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                        <label class="btn btn-outline-danger" for="btnradio3">Radio 3</label>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                        <option p- selected>Ban növü</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                        <option p- selected>Ban növü</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                        <option p- selected>Ban növü</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-1">
+                    <button class="btn btn_category bg-white border btn-lg"> aaaaa</button>
+                </div>
+                <div class="col-md-1">
+                    <button class="btn btn_category bg-white border btn-lg"> aaaaa</button>
+                </div>
+                <div class="col-md-9">
+                    <button class="btn btn_category bg-white border btn-lg"> aadscscscsaaa</button>
+                </div>
+            </div>
+            <div class="hr1 mt-2">
+                <p>Avtomobilin təhcizatı</p>
+            </div>
+            <div class="buttons">
+                <div class="">
+                    <button class="btn btn_category bg-white border btn-lg"> Yüngül lehimli disklər</button>
+                </div>
+                <div class="mx-2">
+                    <button class="btn btn_category bg-white border btn-lg"> ABS</button>
+                </div>
+                <div class="mx-2">
+                    <button class="btn btn_category bg-white border btn-lg"> Lyuk</button>
+                </div>
+                <div class="mx-2">
+                    <button class="btn btn_category bg-white border btn-lg"> Yağış sensoru</button>
+                </div>
+                <div class="mx-2">
+                    <button class="btn btn_category bg-white border btn-lg">Mərkəzi qapanma</button>
+                </div>
+                <div class="mx-2">
+                    <button class="btn btn_category bg-white border btn-lg"> Park radarı</button>
+                </div>
+                <div class="">
+                    <button class="btn btn_category bg-white border btn-lg"> Park radarı</button>
+                </div>
+            </div>
+            <div class="buttons2 buttons mt-3">
+                <div class="">
+                    <button class="btn btn_category bg-white border btn-lg"> Kondisioner</button>
+                </div>
+                <div class="mx-2">
+                    <button class="btn btn_category bg-white border btn-lg">oturacaqları isidilməsi</button>
+                </div>
+                <div class="mx-2">
+                    <button class="btn btn_category bg-white border btn-lg"> Dəri salon </button>
+                </div>
+                <div class="mx-2">
+                    <button class="btn btn_category bg-white border btn-lg">Ksenon lampalar</button>
+                </div>
+                <div class="mx-2">
+                    <button class="btn btn_category bg-white border btn-lg">Arxa görüntü kamersı</button>
+                </div>
+                <div class="mx-2">
+                    <button class="btn btn_category bg-white border btn-lg"> Yan pərdələr</button>
+                </div>
+                <div class="">
+                    <button class="btn btn_category bg-white border btn-lg"> Park radarı</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="section_hidden  container">
+            <div class="spans">
+                <span>Bu gün</span> <a href="#">111 yeni elan</a>
+            </div>
+            <div class="hidden_btn">
+                <a href="#" class="mx-3">Sıfırla</a>
+                <button type="button" class=" btn_link btn btn-link" onclick="myFunction()" id="myButton" ">Daha çox filtr <i
+                        class="fa fa-chevron-up" aria-hidden="true"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid elan_head1">
+        <div class="container ">
+            <h6 class="p-4">AVTOSALONLARIN VIP ELANLARI</h6>
+        </div>
+    </div>
+
+    <div class=" container elanlar">
+        <div class="card cardd  my-4" style="width: 16rem;">
+            <img src="img/88543_En9C3s8hHVunkIB7IYNzng.jpg" class="card-img-top card_img" alt="...">
+            <div class="card-body"><i id="myButton" class="fa fa-lg fa-heart-o heart card_img" aria-hidden="true"></i>
+                <h5 class="card-title">37 500 AZN</h5>
+                <p class="card-text text-bold my-1">BMW 528</p>
+                <p class="card-text">2016, 2.0 L, 113 900 km</p>
+                <p class="card-text text-muted my-1">Bakı bu gün 23:00</p>
+            </div>
+        </div>
+        <div class="card cardd  my-4" style="width: 16rem;">
+            <img src="img/88543_En9C3s8hHVunkIB7IYNzng.jpg" class="card-img-top card_img" alt="..."><i id="heart_t" onclick="heart_t()" class="fa  fa-lg fa-heart-o heart" aria-hidden="true"></i>
+            <div class="card-body">
+                <h5 class="card-title">37 500 AZN</h5>
+                <p class="card-text text-bold my-1">BMW 528</p>
+                <p class="card-text">2016, 2.0 L, 113 900 km</p>
+                <p class="card-text text-muted my-1">Bakı bu gün 23:00</p>
+            </div>
+        </div>
+        <div class="card cardd  my-4" style="width: 16rem;">
+            <img src="img/88543_En9C3s8hHVunkIB7IYNzng.jpg " class="card-img-top card_img" alt="..."><i class="fa fa-lg fa-heart-o heart" aria-hidden="true"></i>
+            <div class="card-body">
+                <h5 class="card-title">37 500 AZN</h5>
+                <p class="card-text text-bold my-1">BMW 528</p>
+                <p class="card-text">2016, 2.0 L, 113 900 km</p>
+                <p class="card-text text-muted my-1">Bakı bu gün 23:00</p>
+            </div>
+        </div>
+        <div class="card cardd  my-4" style="width: 16rem;">
+            <img src="img/88543_En9C3s8hHVunkIB7IYNzng.jpg " class="card-img-top card_img" alt="..."><i class="fa fa-lg fa-heart-o heart" aria-hidden="true"></i>
+            <div class="card-body"> 
+                <h5 class="card-title">37 500 AZN</h5>
+                <p class="card-text text-bold my-1">BMW 528</p>
+                <p class="card-text">2016, 2.0 L, 113 900 km</p>
+                <p class="card-text text-muted my-1">Bakı bu gün 23:00</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid elan_head1">
+        <div class="container ">
+            <h6 class="p-4">VIP ELANLAR</h6>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
