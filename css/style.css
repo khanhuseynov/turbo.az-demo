@@ -50,12 +50,8 @@ select{
     margin: 0;
     
 }
-.none{
-    display: none ;
-}
-.hide1{
-    display: block ;
-}
+
+
 .azn{
     display: flex;
     flex-direction: row;
@@ -104,6 +100,10 @@ select{
 .heart_t{
     background-color: white;
 }
+.up{
+    margin: 0px 0px 0px -9px;
+    color: blue;
+}
 .btn_link:focus{
     box-shadow: none;
 }
@@ -132,7 +132,9 @@ select{
  }
 
 
-
+ #hide{
+    display: none;
+}
 
 
 
