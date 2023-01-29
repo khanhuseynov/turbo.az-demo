@@ -136,6 +136,32 @@ select{
     display: none;
 }
 
+.end_cn{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.end_list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.end_list ul li{
+    list-style: none;
+}
+.rules ul li{
+    list-style: none;
+}
+.rules_ul{
+    display: flex;
+}
+.end{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
 
 
